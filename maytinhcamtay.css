@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "digital-7";
+    src: url(digital-7%20%28italic%29.ttf)
+  }
+.calc__title {
+    color: rgb(255, 102, 204);
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+}
+.calc__main {
+    margin: 0 auto;
+    background-color: lavender;
+    width: 550px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.screen__container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 5px;
+    z-index: 999;
+}
+button {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 1.7rem;
+    margin: 5px;
+    background-color: #ACAAB5;
+    color: white;
+    font-family: "digital-7";
+}
+#screen {
+    width: 540px;
+    height: 50px;
+    background-color: #D3E1E2;
+    color: black;
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: right;
+    font-family: "digital-7";
+}
+.button__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row__container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 550px;
+    margin: 0 auto;
+}
+.row__container--col1 {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#plus {
+    height: 110px;
+}
+button:hover {
+    cursor: pointer;
+}
